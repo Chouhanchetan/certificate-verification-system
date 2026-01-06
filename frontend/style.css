@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e6eef3;
+}
+
+.card {
+  width: 360px;
+  margin: 100px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #1e3c52;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #163040;
+}
+
+.logout {
+  background: crimson;
+}
+
+.result {
+  margin-top: 15px;
+  font-weight: bold;
+}
